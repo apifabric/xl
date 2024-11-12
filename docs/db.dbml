@@ -1,0 +1,23 @@
+// Copy this text, paste to https://dbdiagram.io/d
+// Or, https://databasediagram.com/app
+// Or, view in VSCode with extension: "DBML Live Preview"
+
+Table ScorekaartKandidaat {
+    id INTEGER [primary key]
+    Unnamed__0 FLOAT 
+    Unnamed__1 TEXT 
+    Unnamed__2 TEXT 
+    Unnamed__3 TEXT 
+    Unnamed__4 TEXT 
+    Unnamed__5 TEXT 
+    Unnamed__6 TEXT 
+    Unnamed__7 TEXT 
+    Unnamed__8 TEXT 
+    Unnamed__9 FLOAT 
+    Unnamed__10 TEXT 
+    Unnamed__11 TEXT 
+    }
+
+
+
+// Relationships

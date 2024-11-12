@@ -1,0 +1,90 @@
+about:
+  date: November 12, 2024 06:08:47
+  recent_changes: works with modified safrs-react-admin
+  version: 0.0.0
+api_root: '{http_type}://{swagger_host}:{port}/{api}'
+authentication: '{system-default}'
+entities:
+  ScorekaartKandidaat:
+    columns:
+    - label: ' Unnamed__0*'
+      name: Unnamed__0
+      search: true
+      sort: true
+      template: real
+      type: FLOAT
+    - name: Unnamed__1
+      template: text
+      type: TEXT
+    - name: Unnamed__2
+      template: text
+      type: TEXT
+    - name: Unnamed__3
+      template: text
+      type: TEXT
+    - name: Unnamed__4
+      template: text
+      type: TEXT
+    - name: Unnamed__5
+      template: text
+      type: TEXT
+    - name: Unnamed__6
+      template: text
+      type: TEXT
+    - name: Unnamed__7
+      template: text
+      type: TEXT
+    - name: Unnamed__8
+      template: text
+      type: TEXT
+    - name: Unnamed__9
+      template: real
+      type: FLOAT
+    - name: Unnamed__10
+      template: text
+      type: TEXT
+    - name: Unnamed__11
+      template: text
+      type: TEXT
+    - name: id
+      template: integer
+      type: INTEGER
+    detail_template: detail_template.html
+    exclude: 'false'
+    favorite: Unnamed__0
+    home_template: home_template.html
+    label: ScorekaartKandidaat
+    mode: tab
+    new_template: new_template.html
+    primary_key:
+    - id
+    type: ScorekaartKandidaat
+settings:
+  HomeJS: /admin-app/home.js
+  max_list_columns: 8
+  style_guide:
+    applicationLocales:
+    - en
+    - es
+    currency_symbol: $
+    currency_symbol_position: left
+    date_format: LL
+    decimal_max: '1000000000'
+    decimal_min: '0'
+    decimal_separator: .
+    edit_on_mode: dblclick
+    exclude_listpicker: false
+    include_translation: false
+    keycloak_client_id: alsclient
+    keycloak_realm: kcals
+    keycloak_url: http://localhost:8080
+    locale: en
+    max_decimal_digits: '4'
+    min_decimal_digits: '2'
+    mode: tab
+    pick_style: list
+    serviceType: OntimizeEE
+    startSessionPath: /auth/login
+    style: light
+    thousand_separator: ','
+    use_keycloak: false
